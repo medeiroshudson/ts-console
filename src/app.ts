@@ -1,5 +1,3 @@
-const greetTo = (to: string) => {
-  console.log(`Hello, ${to}!`);
-};
+import greetings from './components/greetings';
 
-greetTo('Hudson');
+console.log(greetings.greet('Hudson'));
